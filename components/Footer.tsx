@@ -6,6 +6,7 @@ import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
+import { FaLink } from "@react-icons/all-files/fa/FaLink"
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import * as React from 'react'
 
@@ -136,6 +137,25 @@ export function FooterImpl() {
             <FaYoutube />
           </a>
         )}
+
+        <a
+            className={styles.youtube}
+            href={`https://tiyalo.com`}
+            title="Accueil Tiyalo"
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaLink />
+          </a>
+          <a
+            className={styles.youtube}
+            href={`https://app.tiyalo.com/listings`}
+            title="Annonces Immobilières"
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaLink />
+          </a>
       </div>
     </footer>
   )
